@@ -1,9 +1,9 @@
 <!doctype html>
-<html lang="cs">
+<html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Pianistic — podpora a ochrana soukromí</title>
+<title>Pianistic — support and privacy</title>
 <style>
   :root { color-scheme: light dark; --fg:#1d1d1f; --muted:#6e6e73; --bg:#fbfbfd; --accent:#0071e3; }
   @media (prefers-color-scheme: dark) { :root { --fg:#f5f5f7; --muted:#a1a1a6; --bg:#111; --accent:#2997ff; } }
@@ -11,12 +11,36 @@
   main { max-width:680px; margin:0 auto; padding:48px 16px 64px; }
   h1 { font-size:34px; margin:0 0 4px; } h2 { font-size:22px; margin:40px 0 8px; }
   p.lead { color:var(--muted); margin:0 0 24px; } a { color:var(--accent); }
-  li { margin:6px 0; } .en { color:var(--muted); font-size:15px; border-top:1px solid #8884; margin-top:40px; padding-top:16px; }
+  li { margin:6px 0; }
+  nav.lang { font-size:15px; color:var(--muted); margin:0 0 8px; }
+  section.cs { border-top:1px solid #8884; margin-top:56px; padding-top:8px; }
 </style>
 </head>
 <body><main>
+<nav class="lang"><a href="#en">English</a> · <a href="#cs">Česky</a></nav>
+
+<section id="en" lang="en">
 <h1>Pianistic</h1>
-<p class="lead">Akordy, postupy a improvizace na klavír — pro iPhone a iPad.</p>
+<p class="lead">Piano chords, progressions and improvisation — for iPhone and iPad, in English and Czech.</p>
+
+<h2 id="support">Support</h2>
+<p>A question, a bug, or a chord that looks wrong? Write to <a href="mailto:kokpit250@gmail.com">kokpit250@gmail.com</a>.</p>
+<p>Every feature is explained in the app: <strong>Settings → Help</strong>.</p>
+
+<h2 id="privacy">Privacy policy</h2>
+<p>Pianistic collects no personal data and sends nothing to the developer or to third parties.</p>
+<ul>
+  <li><strong>Settings</strong> stay on your device only.</li>
+  <li><strong>Your own chord progressions</strong> are saved in your iCloud (Apple), so they are on all your devices. The developer has no access to them.</li>
+  <li><strong>The microphone</strong> is used only in listening mode, to recognise the chord you play. The sound is processed on the device only — it is never recorded, stored or sent.</li>
+  <li>The app has no ads, no analytics, no tracking and needs no account.</li>
+</ul>
+<p>Effective 16 November 2026. Any changes will be published on this page.</p>
+</section>
+
+<section id="cs" lang="cs" class="cs">
+<h1>Pianistic</h1>
+<p class="lead">Akordy, postupy a improvizace na klavír — pro iPhone a iPad, česky i anglicky.</p>
 
 <h2 id="podpora">Podpora</h2>
 <p>Máš dotaz, našel jsi chybu nebo nepřesný akord? Napiš na <a href="mailto:kokpit250@gmail.com">kokpit250@gmail.com</a>.</p>
@@ -31,9 +55,6 @@
   <li>Aplikace neobsahuje reklamy, analytiku ani sledování a nevyžaduje účet.</li>
 </ul>
 <p>Platné od 16. 11. 2026. Případné změny budou zveřejněny na této stránce.</p>
-
-<div class="en">
-<p><strong>English.</strong> Pianistic collects no personal data and sends nothing to the developer or third parties. Settings stay on your device; your own progressions sync through your own iCloud, which the developer cannot access. The microphone is used only in listening mode, processed on the device, never recorded, stored or sent. No ads, analytics, tracking or account. Support: <a href="mailto:kokpit250@gmail.com">kokpit250@gmail.com</a>.</p>
-</div>
+</section>
 </main></body>
 </html>
